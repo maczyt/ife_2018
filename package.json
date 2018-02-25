@@ -1,0 +1,17 @@
+{
+  "name": "ife_2018",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d ."
+  },
+  "repository": "git@github.com:maczyt/ife_2018.git",
+  "author": "maczyt <369280416@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "3.3.7"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.1.0"
+  }
+}
