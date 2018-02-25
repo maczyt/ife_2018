@@ -120,7 +120,7 @@
 
   function checkRePwd(target, info, parent) {
     removeStyle(info, parent);
-    if (target.value === pwd.value) {
+    if (target.value.length > 6 && target.value === pwd.value) {
       info.textContent = "密码输入一致";
       info.classList.add("text-success");
       parent.classList.add("has-success");
