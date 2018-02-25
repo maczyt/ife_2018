@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Task 1</title>
+  <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .container {
+      margin-top: 100px;
+    }
+
+    .info {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <form class="form-horizontal" id="validate-form">
+          <div class="form-group">
+            <label for="" class="control-label col-md-3">名称</label>
+            <div class="col-md-9">
+              <input type="text" class="form-control name">
+              <p class="text-muted info">必填, 长度为4-16个字符</p>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="" class="control-label col-md-3">密码</label>
+            <div class="col-md-9">
+              <input type="password" class="form-control pwd">
+              <p class="text-muted info">输入密码</p>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="" class="control-label col-md-3">密码确认</label>
+            <div class="col-md-9">
+              <input type="password" class="form-control repwd">
+              <p class="text-muted info">再次输入相同密码</p>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="" class="control-label col-md-3">邮箱</label>
+            <div class="col-md-9">
+              <input type="email" class="form-control email">
+              <p class="text-muted info">输入邮箱</p>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="" class="control-label col-md-3">手机</label>
+            <div class="col-md-9">
+              <input type="mobile" class="form-control mobile">
+              <p class="text-muted info">输入手机号码</p>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary pull-right submit">提交</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="./index.js"></script>
+</body>
+
+</html>
